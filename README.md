@@ -1,5 +1,7 @@
 # Implementation-of-lexical-chains-and-Text-summarization
-Implementation of lexical chains and Text summarization tool to extract concise meaningful summary of the original text 
+The relation between different parts of a text plays a vital role in understanding the information present in the text. Nouns and Pronouns significantly help in understanding the topic of a text and summary of the text depends on the word usage and its relations in the text. Thus forming lexical chains enable us to extract words which are having similar sense and creates the necessary data to form a summary of the text.
+
+Thus the implementation aims at extracting lexical chains from the original text and perform text summarization to extract concise meaningful summary of the original text.
 
 **Overview:**
 * Forming Lexical Chains
@@ -18,11 +20,15 @@ Implementation of lexical chains and Text summarization tool to extract concise 
   * Among these 5 elements from the first element, a summary is constructed such that no sentence is repeated
 
 **Example**
+
 **Input**
-![image]()
+
+![image](https://github.com/Zylog101/Implementation-of-lexical-chains-and-Text-summarization/blob/master/Image/NLPInp.JPG)
 
 **Lexical Chains**
-![image]()
+
+![image](https://github.com/Zylog101/Implementation-of-lexical-chains-and-Text-summarization/blob/master/Image/NLPChain.JPG)
 
 **Created Summary**
-![image]()
+
+![image](https://github.com/Zylog101/Implementation-of-lexical-chains-and-Text-summarization/blob/master/Image/NLPSum.JPG)
