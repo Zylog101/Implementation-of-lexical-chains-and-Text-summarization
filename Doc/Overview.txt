@@ -1,0 +1,26 @@
+Flow:
+LexicalChainDemo ->LexicalChainFinder->FileHandler->WordElement
+			             ->SimilarityFinder
+                                                                  ->Chains -> ChainElement
+                                ->SummaryCreator->Chains
+                                                              ->ChainElement
+                                                              ->WordElement
+
+- LexicalChainFinder responsible for creating lexical chains(Chains).
+- FileHandler works with the file and gives word and its associated data whenever asked for.
+- SimilarityFinder interacts using JWNL with WordNet and finds the relation among words.
+- SummaryCreator responsible for creating the summary from Chains created.
+- Chains main class to operate on the lexical chain data structure.
+- ChainElement, WordElement are Data elements for Chains and data extraction from file.
+-Properties.xml is responsible for configuring JWNL
+this is where location of WordNet Database can be changed
+currently its located in the project directory under the name "dict"
+
+-changes to any other configuration can be done by seeing Report
+
+Input:
+"sentences" is the file where data to be processed is placed
+
+Output: seen in console
+
+Eclipse neon is used for development on windows.
